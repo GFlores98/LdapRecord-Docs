@@ -19,7 +19,7 @@ the following `users` provider:
 'providers' => [
     // ...
 
-    'users' => [
+    'ldap' => [
         'driver' => 'ldap',
         'model' => LdapRecord\Models\ActiveDirectory\User::class,
         'rules' => [],
